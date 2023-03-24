@@ -34,7 +34,7 @@ module.exports = {
         }),
     ],
     resolve: {
-        extensions: ['.js', '.ts']
+        extensions: ['.js', '.ts'] //pour éviter de mettre les extensions, test avec .js puis .ts 
     },
     devServer: {
         port: 4000,
